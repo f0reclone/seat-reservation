@@ -98,6 +98,7 @@ return [
     'options' => [
         'application' => env('APP_NAME', 'Laravel'),
         'repository' => 'https://github.com/f0reclone/seat-reservation.git',
+        'http_user' => 'mbgng',
     ],
 
     /*
@@ -160,7 +161,4 @@ return [
     */
 
     'custom_deployer_file' => false,
-
-    'http_user' => 'www-data',
-
 ];

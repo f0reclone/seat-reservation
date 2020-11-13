@@ -37,7 +37,7 @@
         <div class="p-4 md:p-12 text-center lg:text-left">
             <!-- Image for mobile view-->
             <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-                 style="background-image: url('https://source.unsplash.com/MP0IUfwrn0A')"></div>
+                 style="background-image: url('https://source.unsplash.com/Wreb4Gwyf-M')"></div>
 
 
             @yield('content')
@@ -51,15 +51,10 @@
         <!-- Big profile image for side bar (desktop) -->
         <img src="https://source.unsplash.com/Wreb4Gwyf-M"
              class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
-        <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
-
     </div>
 
 </div>
 </body>
-
-@yield('content')
-
 
 @include('partials.scripts')
 @yield('scripts')
