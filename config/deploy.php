@@ -51,8 +51,8 @@ return [
         
         // Code and composer vendors are ready but nothing is built.
         'build' => [
-            'npm:install',
-            'npm:production',
+            //'npm:install',
+            //'npm:production',
         ],
         
         // Deployment is done but not live yet (before symlink)
@@ -160,5 +160,7 @@ return [
     */
 
     'custom_deployer_file' => false,
+
+    'http_user' => 'www-data',
 
 ];
