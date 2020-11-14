@@ -104,7 +104,7 @@
                 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
                     Verbraucherschlichtungsstelle teilzunehmen.</p>
 
-                <h3>Haftung f&uuml;r Inhalte</h3>
+                <h3 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-1xl md:text-2xl">Haftung f&uuml;r Inhalte</h3>
                 <p>Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen
                     Seiten nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als
                     Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen
@@ -114,7 +114,7 @@
                     Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem
                     Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von
                     entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
-                <h3>Haftung f&uuml;r Links</h3>
+                <h3 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-1xl md:text-2xl">Haftung f&uuml;r Links</h3>
                 <p>Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss
                     haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen.
                     F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der
