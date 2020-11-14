@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.reservation')
 
 
 @section('content')
@@ -65,7 +65,7 @@
                 <p class="text-red-500 text-xs italic">Bitte geben Sie Ihre Telefonnummer, zwecks Kontaktnachverfolgung ein.</p>
                 @enderror
             </div>
-            <p class="pt-8 text-sm">Mit der Angabe meiner Daten erkläre ich mich bereit, dass meine Daten zum Zweck der Kontaktnachverfolgung bis zu 30 Tage gespeichert werden. Ich akzeptiere die Datenschutzerklärung.</p>
+            <p class="pt-8 text-sm">Mit der Angabe meiner Daten erkläre ich mich bereit, dass meine Daten zum Zweck der Kontaktnachverfolgung bis zu 30 Tage nach dem ausgewählten Termin gespeichert werden. Ich akzeptiere die <a class="text-teal-600" href="{{ route('legal.privacy') }}">Datenschutzerklärung</a>.</p>
             <div class="mt-5 bg-gray-50 text-right">
                 <button class="py-2 px-4 border border-transparent text-base leading-5 font-medium rounded-md text-white bg-teal-600 shadow-sm hover:bg-teal-500 focus:outline-none focus:shadow-outline-teal active:bg-teal-600 transition duration-150 ease-in-out">
                     Anmelden
