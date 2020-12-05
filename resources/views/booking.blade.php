@@ -4,15 +4,15 @@
 @section('content')
     <h1 class="text-3xl font-bold pt-8 lg:pt-0">Adventssingen 2020</h1>
     <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-    <p class="pt-8 text-md text-center">Auch dieses Jahr wollen wir Sie nicht ohne der
-        frohen Weihnachtsbotschaft lassen.
-        Herzlich sind Sie eingeladen den wohlklingenden Liedern und
+    <p class="pt-8 text-md text-center">Auch dieses Jahr wollen wir Sie nicht ohne die
+        frohe Weihnachtsbotschaft lassen.
+        Herzlich sind Sie eingeladen, den wohlklingenden Liedern und
         der segensreichen Botschaft
-        per Live-Übertragung zu lauschen. </p>
+        per Live-Übertragung zu lauschen! </p>
     <p class="pt-8 text-md text-left">Die Termine:</p>
     <ul class="pt-8 text-md text-left">
-        <li>19.12 um 18 Uhr</li>
-        <li>20.12 um 18 Uhr</li>
+        <li>19.12. um 18 Uhr</li>
+        <li>20.12. um 18 Uhr</li>
     </ul>
 
     <p class="pt-8 text-sm">Nutzen Sie gerne unseren <a title="Versammlungen der MBG Neuwied-Gladbach" class="text-green-600" href="https://www.internet-radio.com/station/mbgng/">Radio-Stream</a> oder den Player unten um live mitzuhören.</p>
