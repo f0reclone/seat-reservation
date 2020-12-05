@@ -15,7 +15,7 @@
         <li>20.12. um 18 Uhr</li>
     </ul>
 
-    <p class="pt-8 text-sm">Nutzen Sie gerne unseren <a title="Versammlungen der MBG Neuwied-Gladbach" class="text-green-600" href="https://www.internet-radio.com/station/mbgng/">Radio-Stream</a> oder den Player unten um live mitzuhören.</p>
+    <p class="pt-8 text-sm">Nutzen Sie gerne unseren <a title="Versammlungen der MBG Neuwied-Gladbach" class="text-green-600" href="https://www.internet-radio.com/station/mbgng/">Radio-Stream</a> oder den Player unten, um live mitzuhören.</p>
    <div class="pt-8 text-center">
        <audio controls class="mx-auto">
            <source src="https://uk3.internet-radio.com/proxy/mbgng?mp=/stream" type="audio/mpeg">
