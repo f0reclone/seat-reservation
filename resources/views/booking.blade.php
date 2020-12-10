@@ -3,7 +3,17 @@
 
 @section('content')
 
-                <h1 class="text-2xl opacity-70 font-bold pt-8 border-b-4 as-element-light">Adventssingen 2020</h1>
+
+    <h1 class="text-2xl opacity-70 font-bold pt-8 border-b-4 as-element-light">Adventssingen 2020</h1>
+    <p class="pt-8 text-sm">Nutzen Sie gerne unseren <a title="Versammlungen der MBG Neuwied-Gladbach" class="text-green-600" href="https://www.internet-radio.com/station/mbgng/">Radio-Stream</a> oder den Player unten, um live mitzuhören.</p>
+   <div class="pt-8 text-center">
+       <audio controls class="mx-auto">
+           <source src="https://uk3.internet-radio.com/proxy/mbgng?mp=/stream" type="audio/mpeg">
+       </audio>
+   </div>
+@stop
+
+@section('scripts')
 
                 <div id="imagecard" class=" max-h-screen ">
                     <img class=" " src="./media/card.png"
