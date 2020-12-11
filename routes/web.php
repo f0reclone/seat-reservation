@@ -15,7 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('', '\App\Http\Controllers\HomeController@index')->name('home.index');
 Route::get('/adventssingen', '\App\Http\Controllers\BookingController@index')->name('booking.index');
-Route::post('/adventssingen', '\App\Http\Controllers\BookingController@post')->name('booking.post');
-Route::get('/angemeldet', '\App\Http\Controllers\BookingController@success')->name('booking.success');
 Route::get('/impressum', '\App\Http\Controllers\LegalController@getImprint')->name('legal.imprint');
 Route::get('/datenschutz', '\App\Http\Controllers\LegalController@getPrivacy')->name('legal.privacy');

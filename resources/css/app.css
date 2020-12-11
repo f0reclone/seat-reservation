@@ -1,0 +1,59 @@
+:root {
+    --light: #f3e3b9;
+    --dark: #1a3a4f;
+}
+
+.text-dark {
+    color: var(--dark);
+}
+
+#imagecard {
+display:inline;
+}
+
+.text-light {
+    color: var(--light);
+}
+
+.as-border {
+    border-color: var(--light);
+}
+
+.as-element-light {
+
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+.as-element-dark {
+
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+html {
+    background-color: var(--dark);
+}
+
+body {
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+.handwriting {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+header {
+    color: var(--light);
+    background-color: var(--dark);
+
+}
+footer {
+    color: var(--light);
+    background-color: var(--dark);
+    position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+}
