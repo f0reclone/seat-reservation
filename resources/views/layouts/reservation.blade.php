@@ -3,7 +3,7 @@
 
 @section('body')
     <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
-          style="background-image:url('/media/background.jpg');">
+          style="background-image:url('/media/background.jpg');background-size: cover;background-position: center center;height: 100vh;">
 
 
     <div class="max-w-2xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-16 lg:my-0">
