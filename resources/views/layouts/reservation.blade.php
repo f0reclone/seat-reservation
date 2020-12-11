@@ -9,7 +9,7 @@
     <div class="flex-grow">
         <div class="place-self-center flex-auto mx-auto">
             <!--Main Col-->
-            <div class="sm:container mx-auto">
+            <div class="max-w-5xl mx-auto">
                 <div class="p-2 sm:p-4 md:px-12 text-center">
                     @yield('content')
                 </div>
