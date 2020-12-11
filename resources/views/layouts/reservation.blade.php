@@ -3,14 +3,14 @@
 
 @section('body')
     <body class="min-h-full h-screen font-sans antialiased items-center text-center leading-normal tracking-wider bg-cover">
-    <header class="mt-5">
+    <header class="mt-5 mb-3">
         Mennoniten-Brüdergemeinde Neuwied-Gladbach
     </header>
     <div class="flex-grow">
         <div class="place-self-center flex-auto mx-auto">
             <!--Main Col-->
-            <div id="profile" class="w-full  ">
-                <div class="p-4 md:px-12 text-center">
+            <div class="sm:container mx-auto">
+                <div class="p-2 sm:p-4 md:px-12 text-center">
                     @yield('content')
                 </div>
             </div>
