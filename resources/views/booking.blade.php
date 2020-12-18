@@ -42,9 +42,22 @@
             oder den Player unten, um live mitzuhören.
         </p>
         <div class="pt-8 pb-4 text-2xl">
-            <audio controls="" class="mx-auto">
-                <source src="https://uk3.internet-radio.com/proxy/mbgng?mp=/stream" type="audio/mpeg">
-            </audio>
+            <div id="lunaradio" style='width:100%; height:70px;
+-webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;'>
+                <div style="overflow:hidden; height:0px; width:0px;"></div>
+            </div>
         </div>
     </div>
 
@@ -68,3 +81,55 @@
         </p>
     </div>
 @stop
+
+@section('scripts')
+    <script src="/js/lunaradio.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $("#lunaradio").lunaradio({
+                token: "{{ config('services.lunaradio.token') }}",
+                userinterface: "small",
+                backgroundcolor: "rgba(243,227,185,1)",
+                fontcolor: "#1a3a4f",
+                hightlightcolor: "#1a3a4f",
+                fontname: "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,",
+                googlefont: "",
+                fontratio: "0.4",
+                radioname: "Adventssingen 2020",
+                scroll: "false",
+                coverimage: "/icons/android-icon-192x192.png",
+                onlycoverimage: "true",
+                coverstyle: "circle",
+                usevisualizer: "fake",
+                visualizertype: "0",
+                multicolorvisualizer: "false",
+                color1: "#e66c35",
+                color2: "#d04345",
+                color3: "#85a752",
+                color4: "#067dcc",
+                visualizeropacity: "0.4",
+                itunestoken: "",
+                metadatatechnic: "fallback",
+                ownmetadataurl: "",
+                streamurl: "http://uk3.internet-radio.com:8412",
+                streamtype: "icecast2",
+                icecastmountpoint: "/live",
+                radionomyid: "",
+                radionomyapikey: "",
+                radiojarid: "",
+                radiocoid: "sdef46f462",
+                shoutcastpath: "/live",
+                shoutcastid: "1",
+                streamsuffix: "",
+                metadatainterval: "20000",
+                volume: "100",
+                debug: "false",
+                autoplay: "false",
+                displayliveicon: "true",
+                displayvisualizericon: "false",
+                usestreamcorsproxy: "false",
+                corsproxy: "",
+            });
+        });
+    </script>
+@endsection
